@@ -192,7 +192,8 @@ int usbhost_init(void)
 	int retval;
 
 	// default values
-	usbhost_fixed_install_mode = 1;		// tmtmtm set to 1 for use with USB ROM
+	usbhost_fixed_install_mode = 0;		// tmtmtm set to 1 
+for use with USB ROM
 	usbhost_hotplug_on_boot = 1;        // tmtmtm set to 1 for use with USB ROM
 	usbhost_fastcharge_in_host_mode = 0;
     usbhost_charging_state = 0;
